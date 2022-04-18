@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="12" tests="12" time="0.920734">
+    <testcase classname="Genrate Token and Upload File" name="To check token generate successfully" time="0.857235">
+        <skipped><![CDATA[Given User have generate token url and all required data....................undefined
+When User send request to generate token....................................undefined
+Then Token should generate successfully.....................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Genrate Token and Upload File" name="To check API will accept one PDF and non PDF file" time="0.00381">
+        <skipped><![CDATA[Given User have post url and all required data..............................undefined
+And User upload one PDF and non PDF file....................................undefined
+When User click on send to upload file......................................undefined
+Then File should uploaded successfully......................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Genrate Token and Upload File" name="To check API will accept One PDF and Multiple Non PDF file" time="0.002628">
+        <skipped><![CDATA[Given User have post url and all required data..............................undefined
+And User upload one PDF and multiple non PDF file...........................undefined
+When User click on send to upload file......................................undefined
+Then File should uploaded successfully......................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Genrate Token and Upload File" name="To check API will accept PDF only" time="0.002901">
+        <skipped><![CDATA[Given User have post url and all required data..............................undefined
+And User upload PDF file only...............................................undefined
+When User click on send to upload file......................................undefined
+Then File should uploaded successfully......................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Genrate Token and Upload File" name="To check with non pdf file only" time="0.00315">
+        <skipped><![CDATA[Given User have post url and all required data..............................undefined
+And User upload non PDF file only...........................................undefined
+When User click on send to upload file......................................undefined
+Then Error message should display...........................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Genrate Token and Upload File" name="Chartid key is missing" time="0.019373">
+        <skipped><![CDATA[Given User have post url and all required data..............................undefined
+And User upload PDF and non PDF file........................................undefined
+And User not enter any Chart Id.............................................undefined
+When User click on send to upload file......................................undefined
+Then enter ChartId message should display...................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Genrate Token and Upload File" name="To check with invalid chartId" time="0.004113">
+        <skipped><![CDATA[Given User have post url and all required data..............................undefined
+And User upload PDF and non PDF file........................................undefined
+And User enter incorrect ChartId............................................undefined
+When User click on send to upload file......................................undefined
+Then Provide correct Chart Id message should display........................undefined
+And Request should failed...................................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Genrate Token and Upload File" name="To check when ChartStatus key is not present in request" time="0.002263">
+        <skipped><![CDATA[Given User have post url and all required data..............................undefined
+And User upload PDF and non PDF file........................................undefined
+And User not enter Chart Status.............................................undefined
+When User click on send to upload file......................................undefined
+Then Chart Status not present message should display........................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Genrate Token and Upload File" name="To check with invalid  ChartStatus key" time="0.003236">
+        <skipped><![CDATA[Given User have post url and all required data..............................undefined
+And User upload PDF and non PDF file........................................undefined
+And User provide incorrect Chart Status.....................................undefined
+When User click on send to upload file......................................undefined
+Then Provide correct Chart Status  message should display...................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Genrate Token and Upload File" name="To check file should stored in database" time="0.002142">
+        <skipped><![CDATA[Given User have post url and all required data..............................undefined
+And User upload PDF and non PDF file........................................undefined
+When User click on send to upload file......................................undefined
+Then Non PDF file should present in database................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Genrate Token and Upload File" name="To check delivery date should be NULL always" time="0.007325">
+        <skipped><![CDATA[Given User have post url and all required data..............................undefined
+And User upload PDF and non PDF file........................................undefined
+When User click on send to upload file......................................undefined
+Then Non PDF file should present in database................................undefined
+And Delivery Date should be NULL............................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Genrate Token and Upload File" name="To check manifest date should be NULL always" time="0.012558">
+        <skipped><![CDATA[Given User have post url and all required data..............................undefined
+And User upload PDF and non PDF file........................................undefined
+When User click on send to upload file......................................undefined
+Then Non PDF file should present in database................................undefined
+And Manifest Date should be NULL............................................undefined
+]]></skipped>
+    </testcase>
+</testsuite>
